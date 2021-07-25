@@ -1,0 +1,52 @@
+.home div{
+  text-align: center;
+}
+.about{
+  background: linear-gradient(rgb(236, 175, 62), rgb(228, 153, 15), rgb(163, 107, 2));
+} 
+.home div img{
+  border-radius: 13%;
+  height: 350px;
+  width:auto;
+  border: 3px solid black ;
+  float: centre;
+}
+.about div div div div div img{
+  border: 3px solid black ;
+  border-radius: 5%;
+}
+.contact{
+  background-color:  rgb(226, 163, 45);
+}
+.education div div div div div img{
+  height: 200px;
+  width: 350px;
+  border: 3px solid black ;
+}
+  .hobbies{
+  background: white;
+  }
+  .hobbies div div div div div div img{
+    height: 200px;
+    padding: 20px;
+  }
+  .skills{
+    background: linear-gradient(rgb(236, 175, 62), rgb(228, 153, 15), rgb(163, 107, 2));
+  }
+  .skills div div div div div{
+    color: black;
+  }
+   .education{
+ background-color: white;
+  }
+  .education div div div div div{
+   text-align: center;
+  }
+
+ @media (min-width:320px) and (max-width:767px){
+    .education div div div div div img{
+      height: 150px;
+      width: 200px;
+      border: 3px solid black ;
+    }
+  }
